@@ -14,27 +14,25 @@ cd src/API/lab6
 mvn --version
 ```
 
-якщо ні, то встановлюємо maven на нашу ОС.
+якщо ні, то встановлюємо maven.
 <br>
 <br>
 
-компілюємо та збираємо прооект
+компілюємо та збираємо проєкт
 
 ```bash
 mvn clean package
 ```
 
-запускаємо проект за допомогою java
+запускаємо проєкт на java
 
 ```bash
 cd target
 java -jar db_lab_6-0.0.1-SNAPSHOT.jar
 ```
 
-Або ж запускаємо за допомогою maven (перед цим не треба додатково збирати та запаковувати проект)
-```bash
-mvn spring-boot:run
-```
+
+
 <hr>
 
 ## Тестування
@@ -42,9 +40,13 @@ mvn spring-boot:run
 ### User:
 
 #### GET All
+![UserGetAll.png](..%2F..%2Fimages%2FUserGetAll.png)
 #### GET By ID
+![UserGetById.png](..%2F..%2Fimages%2FUserGetById.png)
 #### POST
+![UserPost.png](..%2F..%2Fimages%2FUserPost.png)
 #### PUT
+![UserPut.png](..%2F..%2Fimages%2FUserPut.png)
 #### DELETE
 ![UserDelete.png](..%2F..%2Fimages%2FUserDelete.png)
 <hr>
